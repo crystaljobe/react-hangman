@@ -1,0 +1,17 @@
+html {
+    align-items: center;
+    width: fit-content;
+    display: flex;
+}
+
+body {
+    align-items: center;
+    width: fit-content;
+    display: flex;
+    min-height: none;
+    text-align: center;
+}
+
+.gameRules {
+    list-style: none;
+}
