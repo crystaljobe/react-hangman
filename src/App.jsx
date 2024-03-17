@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   const [words, setWords] = useState(words);
 
-  const randomWordIndex = Math.floor(Math.random() * (words.length + 1))
+  const randomWordIndex = Math.floor(Math.random() * words.length)
 
   return (
     <>
